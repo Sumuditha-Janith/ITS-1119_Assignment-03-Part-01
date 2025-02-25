@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Assignment-03-Part-1_Case 1</title>
+    <link rel="stylesheet" href="assets/lib/normalize.css">
+
+    <style>
+
+        body{
+            overflow: hidden;
+        }
+
+        body>div {
+            width: 50%;
+            height: 50%;
+            position: absolute;
+        }
+
+        body> div:nth-child(1){
+            background-color: deeppink;
+            top: 0;
+        }
+
+        body>div:nth-child(2){
+            background-color: aqua;
+            top: 0;
+            right: 0;
+        }
+
+        body>div:nth-child(3){
+            background-color: lime;
+            bottom: 0;
+            left: 0;
+        }
+
+        body>div:nth-child(4){
+            background-color: crimson;
+            bottom: 0;
+            right: 0;
+        }
+
+        /*cricle*/
+        body>div>div{
+            background-color: ghostwhite;
+            position: absolute;
+            width:10vw ;
+            height:10vw;
+            border-radius:100% ;
+            right: 0;
+            left: 0;
+            top: 0;
+            bottom: 0;
+            margin: auto;
+        }
+
+        /*square*/
+        body>div>div>div{
+            background-color: darkblue;
+            position: absolute;
+            width:5vw ;
+            height:5vw;
+            right: 0;
+            left: 0;
+            top: 0;
+            bottom: 0;
+            margin: auto;
+        }
+
+        body>#center{
+
+            background-color: midnightblue;
+            position: absolute;
+
+            width:12vw ;
+            height:12vw;
+
+            right: 0;
+            left: 0;
+            top: 0;
+            bottom: 0;
+            margin: auto;
+        }
+
+        #no1{
+            background-color: blue;
+            position: absolute;
+
+            width:100px ;
+            height:100px;
+
+            border-bottom-right-radius: 100%;
+        }
+
+        #no2{
+            background-color: purple;
+            position: absolute;
+
+            width:100px ;
+            height:100px;
+
+            right: 0;
+            border-bottom-left-radius: 100%;
+        }
+
+        #no3{
+            background-color: red;
+            position: absolute;
+
+            width:100px ;
+            height:100px;
+
+            bottom: 0;
+            border-top-right-radius: 100%;
+        }
+
+        #no4{
+            background-color: dodgerblue;
+            position: absolute;
+
+            width:100px ;
+            height:100px;
+
+            right: 0;
+            bottom: 0;
+
+            border-top-left-radius: 100%;
+        }
+
+        body>div:nth-child(5){
+            background-color: darkblue;
+            position: absolute;
+
+            width:12vw ;
+            height:12vw;
+
+            right: 0;
+            left: 0;
+            top: 100%;
+            bottom: 0;
+            margin: auto;
+
+            border-radius: 100%;
+        }
+
+        body>div:nth-child(6){
+            background-color: darkblue;
+            position: absolute;
+
+            width:12vw ;
+            height:12vw;
+
+            right: 0;
+            left: 0;
+            top: 0;
+            bottom: 100%;
+            margin: auto;
+
+            border-radius: 100%;
+        }
+
+    </style>
+
+</head>
+
+<body>
+
+<!--01-->
+<div>
+
+    <div>
+        <div></div>
+    </div>
+
+</div>
+
+<!--02-->
+<div>
+    <div>
+        <div></div>
+    </div>
+
+</div>
+
+<!--03-->
+<div>
+    <div>
+        <div></div>
+    </div>
+
+</div>
+
+<!--04-->
+<div>
+
+    <div>
+        <div></div>
+    </div>
+</div>
+
+<div></div>
+<div></div>
+
+<div id ="center">
+
+    <div></div>
+
+</div>
+
+<div id="no1"></div>
+<div id="no2"></div>
+<div id="no3" ></div>
+<div id="no4" ></div>
+
+</body>
+</html>

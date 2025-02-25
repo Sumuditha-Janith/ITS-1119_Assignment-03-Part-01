@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Assignment-03-Part-1_Case 2</title>
+    <link rel="stylesheet" href="assets/lib/normalize.css">
+
+    <style>
+
+        header{
+            background-color: floralwhite;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+            position: relative;
+            height: 50px;
+            padding: 10px 0;
+        }
+
+        header img{
+            position: absolute;
+            width: 100px;
+            height: 50px;
+            top: 10px;
+            left: 10px;
+        }
+
+        header nav{
+            display: flex;
+            padding: 10px 10px;
+            position: absolute;
+            top: 0;
+            right: 0;
+        }
+
+        header nav ul li a{
+            text-decoration: none;
+            color: black;
+        }
+
+        header nav ul{
+            display: flex;
+            list-style: none;
+            gap: 20px;
+        }
+
+        main{
+            position: relative;
+        }
+
+        main section{
+            margin-left: 250px;
+        }
+
+        aside {
+            position: absolute;
+            left: 0;
+            top:0;
+            bottom: 0;
+            padding: 10px 10px 10px 10px;
+            background-color: navy;
+            width: 200px;
+            margin-top: -5px;
+        }
+
+        aside nav ul{
+            list-style: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        aside nav ul li {
+            margin-bottom: 10px;
+            font-size: 18px;
+        }
+
+        aside nav ul li a{
+            text-decoration: none;
+            color: white;
+        }
+
+        main section section{
+            position: relative;
+            height: 400px;
+            margin: 5px 5px;
+        }
+
+        main section section div{
+            background: url("assets/images/monkey.gif");
+            position: absolute;
+            height: 300px;
+            width: 35%;
+            border: 2px solid black;
+        }
+
+        main>section>section>div:nth-child(2) {
+            right: 0;
+            left: 0;
+            margin: auto;
+        }
+
+        main>section>section>div:last-child {
+            right: 0;
+        }
+
+        footer{
+            background-color: darkgrey;
+            text-align: center;
+            margin-top: -16px;
+            padding: 20px;
+        }
+
+    </style>
+
+</head>
+
+<body>
+
+<fieldset>
+
+<header>
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="#about">About Us</a></li>
+        </ul>
+    </nav>
+</header>
+
+</fieldset>
+
+<main>
+
+    <aside>
+        <nav>
+            <ul>
+                <li><a href="">Home</a></li>
+                <li><a href="">Services</a></li>
+                <li><a href="">Contact</a></li>
+                <li><a href="">About Us</a></li>
+            </ul>
+        </nav>
+    </aside>
+
+    <section>
+
+        <section>
+            <div></div>
+
+            <div></div>
+
+            <div></div>
+        </section>
+
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus autem consequatur doloribus eos ex illo inventore iste nostrum quas, quos velit voluptas voluptatum? Distinctio dolores eaque explicabo hic nemo soluta.
+        </p>
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus autem consequatur doloribus eos ex illo inventore iste nostrum quas, quos velit voluptas voluptatum? Distinctio dolores eaque explicabo hic nemo soluta.
+        </p>
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus autem consequatur doloribus eos ex illo inventore iste nostrum quas, quos velit voluptas voluptatum? Distinctio dolores eaque explicabo hic nemo soluta.
+        </p>
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus autem consequatur doloribus eos ex illo inventore iste nostrum quas, quos velit voluptas voluptatum? Distinctio dolores eaque explicabo hic nemo soluta.
+        </p>
+    </section>
+</main>
+
+<footer>
+    <div>Developed by SJE</div>
+</footer>
+
+</body>
+
+</html>
