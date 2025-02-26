@@ -2,9 +2,90 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>Assignment-03-Part-1_Case 3</title>
+    <link rel="stylesheet" href="assets/lib/normalize.css">
+
+    <style>
+
+        .FC{
+            width: 360px;
+            height: 360px;
+            background-color: white;
+            position: fixed;
+            top: 0;
+            left: 16px;
+            right: 0;
+            bottom: -3px;
+            margin: auto;
+            border-radius: 50%;
+            border: 30px solid yellow;
+        }
+
+        #FCir1{
+            border: 30px solid yellow;
+        }
+        #FCir2{
+            border: 15px solid mediumpurple;
+        }
+
+        body section {
+            height: 100vw;
+            width: 100vw;
+            position: relative;
+        }
+
+        .circle {
+            border-radius: 50%;
+            width: 360px;
+            height: 360px;
+            position: absolute;
+            top: 0;
+            left: 0;
+            right:0;
+            bottom: 0;
+            margin: auto;
+            text-align: center;
+            align-content: center;
+        }
+
+        #circle1{
+            background-color: red;
+        }
+
+        #circle2{
+            background-color: orange;
+        }
+
+        #circle3{
+            background-color: lime;
+        }
+
+    </style>
+
 </head>
+
 <body>
+
+<div id="FCir1" class="FC"></div>
+<div id="FCir2" class="FC"></div>
+
+<section>
+    <div class="circle" id="circle1">
+        HELLO!
+    </div>
+</section>
+
+<section>
+    <div class="circle" id="circle2">
+        UNIVERSE
+    </div>
+</section>
+
+<section>
+    <div class="circle" id="circle3">
+        How are you?
+    </div>
+</section>
 
 </body>
 </html>

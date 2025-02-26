@@ -2,9 +2,138 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>Assignment-03-Part-1_Case 4</title>
+    <link rel="stylesheet" href="assets/lib/normalize.css">
+
+    <style>
+
+        body {
+            overflow-x: hidden;
+        }
+
+        .page {
+            width: 100vw;
+            height: 100vh;
+            position: relative;
+        }
+
+        .card{
+            height: 40px;
+            width: 100%;
+            color: floralwhite;
+            position: sticky;
+            top: 0;
+            /*z-index: 100;*/
+        }
+
+        #section1>div:first-child{
+            background-color: red;
+        }
+
+        #section2>div:first-child{
+            background-color: green;
+        }
+
+        #section3>div:first-child{
+            background-color: navy;
+        }
+
+        #section4>div:first-child{
+            background-color: deeppink;
+        }
+
+        #section1{
+            background-color: ghostwhite;
+        }
+
+        #section2{
+            background-color: lightgreen;
+        }
+
+        #section3{
+            background-color: lightblue;
+        }
+
+        #section4{
+            background-color: lightpink;
+        }
+
+        .card>div{
+            width: fit-content;
+            height: fit-content;
+            position: absolute;
+
+            top: 2px;
+            bottom: 7px;
+            left: 27px;
+            font-size: 25px;
+            font-family: sans-serif;
+            margin: auto;
+        }
+
+        body>section>div:last-child{
+
+            width: fit-content;
+            height: fit-content;
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            margin: auto;
+            font-size: 70px;
+
+        }
+
+    </style>
+
 </head>
+
 <body>
+
+<!--01-->
+<section id="section1" class="page">
+    <div id="card1" class="card">
+
+        <div>Card 1</div>
+
+    </div>
+    <div>Hello</div>
+
+</section>
+
+<!--02-->
+<section id="section2" class="page">
+
+    <div id="card2" class="card">
+        <div>Card 2</div>
+    </div>
+
+    <div>How</div>
+
+</section>
+
+<!--3-->
+<section id="section3" class="page">
+
+    <div id="card3" class="card">
+        <div>Card 3</div>
+    </div>
+
+    <div>Are</div>
+
+</section>
+
+<!--4-->
+<section id="section4" class="page">
+
+    <div id="card4" class="card">
+        <div>Card 4</div>
+    </div>
+
+    <div>You..?</div>
+
+</section>
 
 </body>
 </html>
